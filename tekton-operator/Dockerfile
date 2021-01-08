@@ -1,0 +1,1 @@
+FROM gcr.io/tekton-releases/github.com/tektoncd/operator/cmd/manager@sha256:38aa1931f8338154bc6461acb83079c0de1595b640afb658bb1753ce50246cf4
