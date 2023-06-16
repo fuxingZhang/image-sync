@@ -1,1 +1,0 @@
-FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook@sha256:a7587aa62b644e000a087fda917dad005ee560ebad27950cb0c3d3b17968a109
