@@ -66,7 +66,8 @@ jobs:
           context: .
           file: ./alpine/Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+#           tags: ${{ steps.meta.outputs.tags }}
+          tags: ghcr.io/fuxingzhang/alpine:latest
           labels: ${{ steps.meta.outputs.labels }}
           
       - name: Build and push Docker image plantuml
@@ -75,5 +76,5 @@ jobs:
           context: .
           file: ./plantuml/Dockerfile
           push: true
-          tags: ghcr.io/fuxingzhang/plantuml-server:latest
+          tags: ghcr.io/fuxingzhang/plantuml-server:jetty
           labels: ${{ steps.meta.outputs.labels }}
