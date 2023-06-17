@@ -75,5 +75,5 @@ jobs:
           context: .
           file: ./plantuml/Dockerfile
           push: true
-          tags: fuxingzhang/plantuml
+          tags: ghcr.io/fuxingzhang/plantuml-server:latest
           labels: ${{ steps.meta.outputs.labels }}
